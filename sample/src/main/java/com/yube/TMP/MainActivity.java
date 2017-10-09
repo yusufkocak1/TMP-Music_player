@@ -1,8 +1,10 @@
 package com.yube.TMP;
 
 import android.app.Activity;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v4.os.EnvironmentCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -16,8 +18,11 @@ import com.example.jean.jcplayer.JcPlayerView;
 import com.example.jean.jcplayer.JcStatus;
 import com.yube.TMP.process.getplaylist;
 
+import java.io.File;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class MainActivity extends Activity
     implements JcPlayerView.OnInvalidPathListener, JcPlayerView.JcPlayerViewStatusListener {
@@ -35,7 +40,7 @@ public class MainActivity extends Activity
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         player = (JcPlayerView) findViewById(R.id.jcplayer);
-        ArrayList<HashMap<String, String>> ist=new ArrayList<>(new getplaylist().getPlayList("/storage/"));
+        ArrayList<HashMap<String, String>> ist=new ArrayList<>(new getplaylist().getPlayList(getExternalStorageDirectories().get(0).toString()));
         ArrayList<JcAudio> jcAudios = new ArrayList<>();
 
         for (HashMap<String, String> item:ist
@@ -176,4 +181,60 @@ public class MainActivity extends Activity
             }
         });
     }
+
+    public List getExternalStorageDirectories() {
+
+        List<String> results = new ArrayList<>();
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) { //Method 1 for KitKat & above
+            File[] externalDirs = getExternalFilesDirs(null);
+
+            for (File file : externalDirs) {
+                String path = file.getPath().split("/Android")[0];
+
+                boolean addPath = false;
+
+                if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    addPath = Environment.isExternalStorageRemovable(file);
+                }
+                else{
+                    addPath = Environment.MEDIA_MOUNTED.equals(EnvironmentCompat.getStorageState(file));
+                }
+
+                if(addPath){
+                    results.add(path);
+                }
+            }
+        }
+
+        if(results.isEmpty()) { //Method 2 for all versions
+            // better variation of: http://stackoverflow.com/a/40123073/5002496
+            String output = "";
+            try {
+                final Process process = new ProcessBuilder().command("mount | grep /dev/block/vold").redirectErrorStream(true).start();
+                process.waitFor();
+                final InputStream is = process.getInputStream();
+                final byte[] buffer = new byte[1024];
+                while (is.read(buffer) != -1) {
+                    output = output + new String(buffer);
+                }
+                is.close();
+            } catch (final Exception e) {
+                e.printStackTrace();
+            }
+            if(!output.trim().isEmpty()) {
+                String devicePoints[] = output.split("\n");
+                for(String voldPoint: devicePoints) {
+                    results.add(voldPoint.split(" ")[2]);
+                }
+            }
+        }
+
+    return results;
+      /*  String[] storageDirectories = new String[results.size()];
+        for(int i=0; i<results.size(); ++i) storageDirectories[i] = results.get(i);
+
+        return storageDirectories;*/
+    }
+
 }
