@@ -28,6 +28,7 @@ public class MainActivity extends Activity
     implements JcPlayerView.OnInvalidPathListener, JcPlayerView.JcPlayerViewStatusListener {
 
     private static final String TAG = MainActivity.class.getSimpleName();
+    private static final String LOG_TAG = "hata" ;
 
     private JcPlayerView player;
     private RecyclerView recyclerView;
@@ -37,6 +38,10 @@ public class MainActivity extends Activity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         player = (JcPlayerView) findViewById(R.id.jcplayer);
@@ -229,6 +234,25 @@ public class MainActivity extends Activity
                 }
             }
         }
+//Below few lines is to remove paths which may not be external memory card, like OTG (feel free to comment them out)
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            for (int i = 0; i < results.size(); i++) {
+                if (!results.get(i).toLowerCase().matches(".*[0-9a-f]{4}[-][0-9a-f]{4}")) {
+                    Log.d(LOG_TAG, results.get(i) + " might not be extSDcard");
+                    results.remove(i--);
+                }
+            }
+        } else {
+            for (int i = 0; i < results.size(); i++) {
+                if (!results.get(i).toLowerCase().contains("ext") && !results.get(i).toLowerCase().contains("sdcard")) {
+                    Log.d(LOG_TAG, results.get(i)+" might not be extSDcard");
+                    results.remove(i--);
+                }
+            }
+        }
+
+        String[] storageDirectories = new String[results.size()];
+        for(int i=0; i<results.size(); ++i) storageDirectories[i] = results.get(i);
 
     return results;
       /*  String[] storageDirectories = new String[results.size()];
