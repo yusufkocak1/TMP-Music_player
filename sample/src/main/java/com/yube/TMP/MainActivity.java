@@ -48,8 +48,9 @@ public class MainActivity extends Activity
         ArrayList<HashMap<String, String>> ist=new ArrayList<>(new getplaylist().getPlayList(getExternalStorageDirectories().get(0).toString()));
         ArrayList<JcAudio> jcAudios = new ArrayList<>();
 
-        for (HashMap<String, String> item:ist
+        for (HashMap<String, String> item:ist// Burada verileri cekiyoruz.
              ) {
+
             jcAudios.add(JcAudio.createFromFilePath(item.get("file_name").toString(),item.get("file_path").toString()));
 
         }
