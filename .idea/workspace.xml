@@ -6,11 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ebc2ab6-16b7-4e86-8cc9-1f259bedc25f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/process/getplaylist.java" afterPath="$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/process/getplaylist.java" />
-    </list>
+    <list default="true" id="8ebc2ab6-16b7-4e86-8cc9-1f259bedc25f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,15 +34,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1292">
               <caret line="94" column="36" lean-forward="false" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#1094#1095#0" expanded="false" />
-                <element signature="e#1135#1136#0" expanded="false" />
-                <element signature="e#1323#1324#0" expanded="false" />
-                <element signature="e#1379#1380#0" expanded="false" />
-                <element signature="e#2916#2917#0" expanded="false" />
-                <element signature="e#2983#2984#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,8 +42,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="48" column="56" lean-forward="true" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+            <state relative-caret-position="17">
+              <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -75,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/process/getplaylist.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2855,8 +2843,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2903,12 +2889,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Caly" />
     <property name="device.picker.selection" value="SWDYGAVORWIR69SW" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sample/src/main/java/com" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -3245,6 +3233,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.49694657" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3253,7 +3242,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04952077" sideWeight="0.52118003" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.047923323" sideWeight="0.52118003" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.118892506" sideWeight="0.49694657" order="7" side_tool="false" content_ui="tabs" />
@@ -3364,7 +3353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3436,7 +3424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3464,15 +3451,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1094#1095#0" expanded="false" />
-            <element signature="e#1135#1136#0" expanded="false" />
-            <element signature="e#1323#1324#0" expanded="false" />
-            <element signature="e#1379#1380#0" expanded="false" />
-            <element signature="e#2916#2917#0" expanded="false" />
-            <element signature="e#2983#2984#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3690,15 +3669,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="94" column="36" lean-forward="false" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1094#1095#0" expanded="false" />
-            <element signature="e#1135#1136#0" expanded="false" />
-            <element signature="e#1323#1324#0" expanded="false" />
-            <element signature="e#1379#1380#0" expanded="false" />
-            <element signature="e#2916#2917#0" expanded="false" />
-            <element signature="e#2983#2984#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3742,14 +3713,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
@@ -3758,19 +3725,22 @@
           </folding>
         </state>
       </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/process/getplaylist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="48" column="56" lean-forward="true" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+        <state relative-caret-position="17">
+          <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
           <folding />
         </state>
       </provider>
