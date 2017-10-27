@@ -73,6 +73,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="17">
               <caret line="48" column="56" lean-forward="false" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
               <folding />
@@ -102,6 +103,11 @@
               <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
 >>>>>>> parent of 19443c0... playlist save to database
+=======
+            <state relative-caret-position="102">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+>>>>>>> parent of 19443c0... playlist save to database
             </state>
           </provider>
         </entry>
@@ -109,6 +115,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jcplayer/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +135,11 @@
               <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
 >>>>>>> master
+=======
+            <state relative-caret-position="121">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding />
+>>>>>>> parent of 19443c0... playlist save to database
 =======
             <state relative-caret-position="121">
               <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
@@ -2926,6 +2938,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/process/getplaylist.java" />
 =======
         <option value="$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/DbHelper.java" />
@@ -2936,11 +2949,14 @@
 >>>>>>> parent of 19443c0... playlist save to database
 =======
 >>>>>>> parent of 19443c0... playlist save to database
+=======
+>>>>>>> parent of 19443c0... playlist save to database
         <option value="$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2960,13 +2976,18 @@
 >>>>>>> parent of 19443c0... playlist save to database
 =======
 >>>>>>> parent of 19443c0... playlist save to database
+=======
+>>>>>>> parent of 19443c0... playlist save to database
     <option name="x" value="-7" />
     <option name="y" value="3" />
     <option name="width" value="1370" />
     <option name="height" value="772" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
+=======
+>>>>>>> parent of 19443c0... playlist save to database
 =======
 >>>>>>> parent of 19443c0... playlist save to database
 =======
@@ -2992,6 +3013,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -2999,6 +3021,9 @@
 =======
       <pane id="ProjectPane" />
 >>>>>>> master
+=======
+      <pane id="ProjectPane" />
+>>>>>>> parent of 19443c0... playlist save to database
 =======
       <pane id="ProjectPane" />
 >>>>>>> parent of 19443c0... playlist save to database
@@ -3105,6 +3130,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="Scope" />
 =======
@@ -3122,10 +3148,15 @@
       <pane id="Scope" />
       <pane id="Scratches" />
 >>>>>>> parent of 19443c0... playlist save to database
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+>>>>>>> parent of 19443c0... playlist save to database
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3137,6 +3168,9 @@
 =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
 >>>>>>> master
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> parent of 19443c0... playlist save to database
 =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
 >>>>>>> parent of 19443c0... playlist save to database
@@ -3483,6 +3517,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
 =======
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
@@ -3496,10 +3531,14 @@
 =======
     <frame x="-7" y="3" width="1370" height="772" extended-state="0" />
 >>>>>>> parent of 19443c0... playlist save to database
+=======
+    <frame x="-7" y="3" width="1370" height="772" extended-state="0" />
+>>>>>>> parent of 19443c0... playlist save to database
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.49694657" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3517,10 +3556,14 @@
 =======
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.48778626" order="7" side_tool="false" content_ui="tabs" />
 >>>>>>> parent of 19443c0... playlist save to database
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.48778626" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> parent of 19443c0... playlist save to database
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3532,6 +3575,9 @@
 =======
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3403909" sideWeight="0.5053435" order="7" side_tool="true" content_ui="tabs" />
 >>>>>>> master
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3403909" sideWeight="0.5053435" order="7" side_tool="true" content_ui="tabs" />
+>>>>>>> parent of 19443c0... playlist save to database
 =======
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3403909" sideWeight="0.5053435" order="7" side_tool="true" content_ui="tabs" />
 >>>>>>> parent of 19443c0... playlist save to database
@@ -3550,6 +3596,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15355521" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
 =======
@@ -3559,6 +3606,10 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15343511" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
 >>>>>>> master
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15343511" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+>>>>>>> parent of 19443c0... playlist save to database
 =======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15343511" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -3635,8 +3686,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> master
+=======
+>>>>>>> parent of 19443c0... playlist save to database
 =======
 >>>>>>> parent of 19443c0... playlist save to database
 =======
@@ -3656,12 +3710,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <folding>
             <element signature="e#495#513#0" expanded="true" />
           </folding>
 =======
           <folding />
 >>>>>>> master
+=======
+          <folding />
+>>>>>>> parent of 19443c0... playlist save to database
 =======
           <folding />
 >>>>>>> parent of 19443c0... playlist save to database
@@ -3678,12 +3736,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
 =======
 >>>>>>> master
 =======
+=======
+>>>>>>> parent of 19443c0... playlist save to database
 =======
 >>>>>>> parent of 19443c0... playlist save to database
 =======
@@ -3694,7 +3755,10 @@
     </entry>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
+=======
+>>>>>>> parent of 19443c0... playlist save to database
 =======
 >>>>>>> parent of 19443c0... playlist save to database
 =======
@@ -3766,6 +3830,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <folding>
 <<<<<<< HEAD
             <element signature="e#495#513#0" expanded="true" />
@@ -3776,6 +3841,9 @@
 =======
           <folding />
 >>>>>>> master
+=======
+          <folding />
+>>>>>>> parent of 19443c0... playlist save to database
 =======
           <folding />
 >>>>>>> parent of 19443c0... playlist save to database
@@ -4062,6 +4130,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/AudioAdapter.java">
 =======
     <entry file="file://$PROJECT_DIR$/../../appilication/android/software/android-sdk-windows/sources/android-23/java/util/ArrayList.java" />
@@ -4076,6 +4145,9 @@
 =======
     <entry file="file://$PROJECT_DIR$/jcplayer/src/main/java/com/example/jean/jcplayer/JcAudio.java">
 >>>>>>> parent of 19443c0... playlist save to database
+=======
+    <entry file="file://$PROJECT_DIR$/jcplayer/src/main/java/com/example/jean/jcplayer/JcAudio.java">
+>>>>>>> parent of 19443c0... playlist save to database
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -4085,6 +4157,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/AudioAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     <entry file="file://$PROJECT_DIR$/jcplayer/src/main/java/com/example/jean/jcplayer/JcAudio.java">
@@ -4100,6 +4173,8 @@
 >>>>>>> parent of 19443c0... playlist save to database
 =======
 >>>>>>> parent of 19443c0... playlist save to database
+=======
+>>>>>>> parent of 19443c0... playlist save to database
         <state relative-caret-position="1292">
           <caret line="94" column="36" lean-forward="false" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
           <folding />
@@ -4108,6 +4183,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jcplayer/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4244,6 +4320,34 @@
         <state relative-caret-position="104">
           <caret line="1105" column="0" lean-forward="false" selection-start-line="1105" selection-start-column="0" selection-end-line="1105" selection-end-column="0" />
 >>>>>>> parent of 19443c0... playlist save to database
+=======
+        <state relative-caret-position="121">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../appilication/android/software/android-sdk-windows/sources/android-23/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../appilication/android/software/android-sdk-windows/sources/android-23/java/util/Locale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="1345" column="0" lean-forward="false" selection-start-line="1345" selection-start-column="0" selection-end-line="1345" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../appilication/android/software/android-sdk-windows/sources/android-23/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="1105" column="0" lean-forward="false" selection-start-line="1105" selection-start-column="0" selection-end-line="1105" selection-end-column="0" />
+>>>>>>> parent of 19443c0... playlist save to database
           <folding>
             <element signature="e#40083#40084#0" expanded="false" />
           </folding>
@@ -4253,6 +4357,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../appilication/android/software/android-sdk-windows/sources/android-23/java/lang/CaseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4287,6 +4392,11 @@
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
 >>>>>>> parent of 19443c0... playlist save to database
+=======
+        <state relative-caret-position="117">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+>>>>>>> parent of 19443c0... playlist save to database
         </state>
       </provider>
     </entry>
@@ -4296,8 +4406,22 @@
           <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+>>>>>>> parent of 19443c0... playlist save to database
+=======
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/process/getplaylist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
 >>>>>>> parent of 19443c0... playlist save to database
           <folding />
         </state>
@@ -4306,6 +4430,7 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/process/getplaylist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -4358,6 +4483,13 @@
           <folding />
 >>>>>>> parent of 19443c0... playlist save to database
 =======
+        <state relative-caret-position="102">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+>>>>>>> parent of 19443c0... playlist save to database
+=======
+    <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/yube/TMP/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
