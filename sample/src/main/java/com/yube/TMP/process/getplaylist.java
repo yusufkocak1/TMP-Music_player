@@ -17,7 +17,7 @@ public class getplaylist {
         ArrayList<HashMap<String,String>> fileList = new ArrayList<>();
         try {
             File rootFolder = new File(rootPath);
-            File[] files = rootFolder.listFiles(); //here you will get NPE if directory doesn't contains  any file,handle it like this.
+            File[] files = rootFolder.listFiles();
             for (File file : files) {
                 if (file.isDirectory()) {
                     if (getPlayList(file.getAbsolutePath()) != null) {
