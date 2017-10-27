@@ -11,6 +11,7 @@
       android:layout_alignTop="@+id/audio_title"
       android:layout_alignBottom="@+id/separator"
       android:orientation="horizontal"
+      android:background="#000000"
       >
 
     <View
@@ -18,7 +19,7 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="0"
-        android:background="#b5e6c808"
+        android:background="#"
         />
 
     <View
@@ -40,6 +41,7 @@
       android:text="SONG TITLE"
       android:textAlignment="textStart"
       android:textSize="18sp"
+      android:textColor="#FFFFFF"
       />
 
   <Button
@@ -57,7 +59,7 @@
       android:layout_width="match_parent"
       android:layout_height="1dp"
       android:layout_below="@+id/btn_delete"
-      android:background="@android:color/darker_gray"
+      android:background="#ffffff"
       android:paddingEnd="3dp"
       android:paddingStart="3dp"
       />
