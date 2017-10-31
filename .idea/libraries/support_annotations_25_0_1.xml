@@ -1,10 +1,11 @@
 <component name="libraryTable">
   <library name="support-annotations-25.0.1">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../appilication/android/software/android-sdk-windows/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar!/" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+<<<<<<< HEAD
       <root url="jar://$PROJECT_DIR$/../../appilication/android/software/android-sdk-windows/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1-sources.jar!/" />
 <<<<<<< HEAD
 =======
@@ -12,6 +13,9 @@
 >>>>>>> master
 =======
 >>>>>>> parent of 24633ac... Merge branch 'master' into TMP-yusuf
+=======
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1-sources.jar!/" />
+>>>>>>> master
     </SOURCES>
   </library>
 </component>
