@@ -5,7 +5,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.os.EnvironmentCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SimpleItemAnimator;
@@ -16,6 +15,8 @@ import com.example.jean.jcplayer.JcAudio;
 import com.example.jean.jcplayer.JcPlayerView;
 
 import com.example.jean.jcplayer.JcStatus;
+import com.yube.TMP.Contact.PlayListContact;
+import com.yube.TMP.process.Database;
 import com.yube.TMP.process.getplaylist;
 
 import java.io.File;
@@ -28,31 +29,43 @@ public class MainActivity extends Activity
     implements JcPlayerView.OnInvalidPathListener, JcPlayerView.JcPlayerViewStatusListener {
 
     private static final String TAG = MainActivity.class.getSimpleName();
-    private static final String LOG_TAG = "hata" ;
 
     private JcPlayerView player;
     private RecyclerView recyclerView;
     private AudioAdapter audioAdapter;
+    Database db=new Database(this);
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-
-
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         player = (JcPlayerView) findViewById(R.id.jcplayer);
+
         ArrayList<HashMap<String, String>> ist=new ArrayList<>(new getplaylist().getPlayList(getExternalStorageDirectories().get(0).toString()));
         ArrayList<JcAudio> jcAudios = new ArrayList<>();
-
+// ist veritabanına kaydedilecek.
+        //veritabanından cekilen veri bir hashmape eklenecek.
+// name path category
+        db.open();
+db.delete();
         for (HashMap<String, String> item:ist
              ) {
-            jcAudios.add(JcAudio.createFromFilePath(item.get("file_name").toString(),item.get("file_path").toString()));
+
+            db.create(item.get("file_name").toString(),item.get("file_path").toString(),"Default");
 
         }
+        ArrayList<PlayListContact> playList=new ArrayList<>();
+        playList=db.vericek();
+
+        for (int i=0;i<playList.size();i++) {
+            jcAudios.add(JcAudio.createFromFilePath(playList.get(i).getName(),playList.get(i).getPath()));
+
+
+        }
+        db.close();
         //jcAudios.add(JcAudio.createFromURL("url audio","http://www.villopim.com.br/android/Music_01.mp3"));
        /* jcAudios.add(JcAudio.createFromAssets("Asset audio 1", "49.v4.mid"));
         jcAudios.add(JcAudio.createFromAssets("Asset audio 2", "56.mid"));
@@ -234,25 +247,6 @@ public class MainActivity extends Activity
                 }
             }
         }
-//Below few lines is to remove paths which may not be external memory card, like OTG (feel free to comment them out)
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            for (int i = 0; i < results.size(); i++) {
-                if (!results.get(i).toLowerCase().matches(".*[0-9a-f]{4}[-][0-9a-f]{4}")) {
-                    Log.d(LOG_TAG, results.get(i) + " might not be extSDcard");
-                    results.remove(i--);
-                }
-            }
-        } else {
-            for (int i = 0; i < results.size(); i++) {
-                if (!results.get(i).toLowerCase().contains("ext") && !results.get(i).toLowerCase().contains("sdcard")) {
-                    Log.d(LOG_TAG, results.get(i)+" might not be extSDcard");
-                    results.remove(i--);
-                }
-            }
-        }
-
-        String[] storageDirectories = new String[results.size()];
-        for(int i=0; i<results.size(); ++i) storageDirectories[i] = results.get(i);
 
     return results;
       /*  String[] storageDirectories = new String[results.size()];
