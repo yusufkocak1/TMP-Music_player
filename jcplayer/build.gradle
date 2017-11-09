@@ -10,14 +10,14 @@ ext {
 
     libraryDescription = 'A simple way of make an audio player using custom playlists for Android applications.'
 
-    siteUrl = 'https://github.com/jeancsanchez/JCPlayer'
+    siteUrl = 'https://www.themusicplayer.org'
     gitUrl = 'https://github.com/jeancsanchez/JCPlayer.git'
 
     libraryVersion = '2.0.3-alpha'
 
-    developerId = 'jeancsanchez'
-    developerName = 'Jean Carlos'
-    developerEmail = 'jeancs.patricio@gmail.com'
+    developerId = 'yusufkocak'
+    developerName = 'yusuf kocak'
+    developerEmail = 'yusufkocak.53@yandexcom'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
