@@ -10,7 +10,7 @@ import java.util.HashMap;
  * Created by yusuf on 2.10.2017.
  */
 
-public class getplaylist {
+public class Getplaylist {
 
 
    public ArrayList<HashMap<String,String>> getPlayList(String rootPath) {
