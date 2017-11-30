@@ -1,13 +1,25 @@
 package com.yube.TMP;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Dialog;
+<<<<<<< HEAD
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.FragmentPagerAdapter;
+=======
+import android.app.DialogFragment;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.os.Build;
+import android.os.Bundle;
+import android.os.Environment;
+import android.support.annotation.RequiresApi;
+>>>>>>> parent of c025116... Merge pull request #9 from yusufkocak1/TMP-yusuf
 import android.support.v4.os.EnvironmentCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -29,7 +41,7 @@ import com.example.jean.jcplayer.JcPlayerView;
 import com.example.jean.jcplayer.JcStatus;
 import com.yube.TMP.Contact.PlayListContact;
 import com.yube.TMP.process.Database;
-import com.yube.TMP.process.Getplaylist;
+import com.yube.TMP.process.getplaylist;
 
 import java.io.File;
 import java.io.InputStream;
@@ -45,6 +57,7 @@ public class MainActivity extends Activity
     private JcPlayerView player;
     private RecyclerView recyclerView;
     private AudioAdapter audioAdapter;
+<<<<<<< HEAD
     private Database db = new Database(this);
     private ImageButton scanbtn;
     private ArrayList<JcAudio> jcAudios;
@@ -59,6 +72,11 @@ public class MainActivity extends Activity
             R.drawable.youtube
     };
 
+=======
+    Database db = new Database(this);
+    ImageButton scanbtn;
+    ArrayList<JcAudio> jcAudios;
+>>>>>>> parent of c025116... Merge pull request #9 from yusufkocak1/TMP-yusuf
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -103,7 +121,7 @@ public class MainActivity extends Activity
 
             public void onClick(View v) {
 
-                scanalert.showalert(MainActivity.this);
+                        scanalert.showalert(MainActivity.this);
 
 
                 Thread threadscan = new Thread(new Runnable() {
@@ -111,7 +129,7 @@ public class MainActivity extends Activity
                     public void run() {
 
 
-                        ArrayList<HashMap<String, String>> ist = new ArrayList<>(new Getplaylist().getPlayList(getExternalStorageDirectories().get(0).toString()));
+                        ArrayList<HashMap<String, String>> ist = new ArrayList<>(new getplaylist().getPlayList(getExternalStorageDirectories().get(0).toString()));
 
                         db.delete();
                         for (HashMap<String, String> item : ist
@@ -121,7 +139,7 @@ public class MainActivity extends Activity
 
                         }
                         scanalert.dialog.dismiss();
-                        jcAudios = dbread();
+                        jcAudios=dbread();
                         finish();
                         startActivity(getIntent());
                     }
@@ -397,12 +415,12 @@ public class MainActivity extends Activity
     }
 
 
-    public ArrayList dbread() {
+    public ArrayList dbread(){
         ArrayList<PlayListContact> playList = new ArrayList<>();
         try {
             playList = db.vericek();
         } catch (Exception e) {
-            ArrayList<HashMap<String, String>> ist = new ArrayList<>(new Getplaylist().getPlayList(getExternalStorageDirectories().get(0).toString()));
+            ArrayList<HashMap<String, String>> ist = new ArrayList<>(new getplaylist().getPlayList(getExternalStorageDirectories().get(0).toString()));
 
             db.delete();
             for (HashMap<String, String> item : ist
@@ -420,20 +438,20 @@ public class MainActivity extends Activity
 
         }
         db.close();
-        return jcAudios;
+        return  jcAudios;
     }
 
-    public void initplayer(ArrayList jcAudios) {
-        if (jcAudios.size() > 0) {
-            player.initPlaylist(jcAudios);
-            player.registerInvalidPathListener(this);
-            player.registerStatusListener(this);
-            adapterSetup();
-        }
+public void initplayer(ArrayList jcAudios){
+    if (jcAudios.size() > 0) {
+        player.initPlaylist(jcAudios);
+        player.registerInvalidPathListener(this);
+        player.registerStatusListener(this);
+        adapterSetup();
     }
+}
 
     class alert {
-        private Dialog dialog;
+        Dialog dialog;
 
         public void showalert(MainActivity activity) {
             dialog = new Dialog(activity);
@@ -441,7 +459,7 @@ public class MainActivity extends Activity
             dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
             dialog.setCancelable(false);
             dialog.setContentView(R.layout.scan_alert);
-            //ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar);
+            ProgressBar progressBar = (ProgressBar) findViewById(R.id.progressBar);
             //   progressBar.setVisibility(View.VISIBLE);
             //  progressBar.setMax(150);
             dialog.show();
