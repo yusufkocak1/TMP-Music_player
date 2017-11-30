@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import com.yube.TMP.Contact.PlayListContact;
+import com.yube.TMP.MainActivity;
 
 import java.util.ArrayList;
 
@@ -31,7 +32,7 @@ public Database(Activity activity){
     this.context=activity;
 }
 
-    public Database() {
+    public Database(MainActivity mainActivity) {
 
     }
 
