@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.os.Build;
@@ -12,6 +13,8 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.FragmentPagerAdapter;
 =======
+=======
+>>>>>>> parent of ff2dfb1... codacy error prone and unused code fixed
 import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -19,7 +22,10 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.RequiresApi;
+<<<<<<< HEAD
 >>>>>>> parent of c025116... Merge pull request #9 from yusufkocak1/TMP-yusuf
+=======
+>>>>>>> parent of ff2dfb1... codacy error prone and unused code fixed
 import android.support.v4.os.EnvironmentCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -58,6 +64,7 @@ public class MainActivity extends Activity
     private RecyclerView recyclerView;
     private AudioAdapter audioAdapter;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private Database db = new Database(this);
     private ImageButton scanbtn;
     private ArrayList<JcAudio> jcAudios;
@@ -77,6 +84,11 @@ public class MainActivity extends Activity
     ImageButton scanbtn;
     ArrayList<JcAudio> jcAudios;
 >>>>>>> parent of c025116... Merge pull request #9 from yusufkocak1/TMP-yusuf
+=======
+    Database db = new Database(this);
+    ImageButton scanbtn;
+    ArrayList<JcAudio> jcAudios;
+>>>>>>> parent of ff2dfb1... codacy error prone and unused code fixed
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
